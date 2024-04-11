@@ -36,3 +36,9 @@ nfu参数含义
 x/16ub 0x12345678
 ```
 10进制打印16个字节
+
+**container_of**
+
+```
+p &(((struct mds_cdentry*)0)->rb_node)
+```
