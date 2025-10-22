@@ -12,3 +12,15 @@ echo c > /proc/sysrq-trigger
 
 
 mod -s epc /root/zwb/epc/epc.ko
+
+查看成员偏移
+
+```
+# 16进制
+struct epc_proc_request -ox
+epc_proc_req_t -ox
+
+# 某个成员偏移 10进制
+epc_proc_req_t.r_timeout -o
+# 16进制
+epc_proc_req_t.r_timeout -x
