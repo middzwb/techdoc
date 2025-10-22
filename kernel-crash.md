@@ -9,3 +9,6 @@ echo 1 > /proc/sys/kernel/sysrq
 # c: 触发crash重启
 echo c > /proc/sysrq-trigger
 ```
+
+
+mod -s epc /root/zwb/epc/epc.ko
