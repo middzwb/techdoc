@@ -42,3 +42,13 @@ x/16ub 0x12345678
 ```
 p &(((struct mds_cdentry*)0)->rb_node)
 ```
+
+**log**
+
+```
+(gdb) set logging file my-gdb-log.txt
+(gdb) set logging on
+(gdb) set logging off
+(gdb) show logging
+
+```
