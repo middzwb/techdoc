@@ -47,8 +47,7 @@ p &(((struct mds_cdentry*)0)->rb_node)
 
 ```
 (gdb) set logging file my-gdb-log.txt
-(gdb) set logging on
-(gdb) set logging off
+(gdb) set logging enabled on
 (gdb) show logging
 
 ```
